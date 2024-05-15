@@ -18,6 +18,7 @@ class Main{
          for(int j = 2; j <= i/2 ; j++){
              if(i%j == 0){
                  flag = false; 
+                 break;
              }
              else{
              flag = true;
